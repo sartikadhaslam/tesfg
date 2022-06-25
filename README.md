@@ -2,9 +2,19 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+clone this repository
 
-```bash
+using ssh by running this command `git clone git@github.com:femalegeek-id/femalegeek-website-nextjs.git`
+
+then, install dependencies
+
+```
+cd femalegeek-website-nextjs
+yarn
+```
+
+
+```
 npm run dev
 # or
 yarn dev
