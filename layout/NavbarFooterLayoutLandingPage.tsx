@@ -12,10 +12,10 @@ export default function NavbarFooterLayout(props: NavbarFooterLayoutProps) {
       {/* navbar */}
       <div className="h-10">
         <nav className="bg-[#EC407A] px-6 py-2.5">
-          <div className="flex flex-wrap md:flex-col justify-between items-center mx-auto max-w-screen-xl">
+          <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             <a
               href="https://femalegeek.org/"
-              className="flex items-center md:py-5 py-2"
+              className="flex items-center  py-2"
             >
               <img
                 src="/logo.png"
@@ -24,6 +24,12 @@ export default function NavbarFooterLayout(props: NavbarFooterLayoutProps) {
               />
             </a>
             <div className="flex items-center lg:order-2">
+              <a
+                href="#"
+                className="text-[#EC407A] bg-white hover:bg-gray-700 hover:text-white font-medium rounded-3xl text-md px-4 lg:px-5 py-2 lg:py-2.5 mr-2"
+              >
+                Ayo Mulai !
+              </a>
               <button
                 data-collapse-toggle="mobile-menu-2"
                 type="button"
@@ -62,21 +68,13 @@ export default function NavbarFooterLayout(props: NavbarFooterLayoutProps) {
               className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
               id="mobile-menu-2"
             >
-              <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-20 lg:mt-0 pb-5">
+              <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                 <li>
                   <a
                     href="#"
                     className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-gray-700 lg:p-0"
                   >
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-gray-700 lg:p-0"
-                  >
-                    Job Vacancy
+                    Tentang Kami
                   </a>
                 </li>
                 <li>
@@ -92,7 +90,7 @@ export default function NavbarFooterLayout(props: NavbarFooterLayoutProps) {
                     href="#"
                     className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-gray-700 lg:p-0"
                   >
-                    Event
+                    Job Board
                   </a>
                 </li>
                 <li>
@@ -100,15 +98,7 @@ export default function NavbarFooterLayout(props: NavbarFooterLayoutProps) {
                     href="#"
                     className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-gray-700 lg:p-0"
                   >
-                    Coding
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-gray-700 lg:p-0"
-                  >
-                    Profil Saya
+                    Donasi
                   </a>
                 </li>
               </ul>
