@@ -7,12 +7,13 @@ clone this repository
 using ssh by running this command `git clone git@github.com:femalegeek-id/femalegeek-website-nextjs.git`
 
 requirement:
+
 ```
 nvm (install here https://github.com/nvm-sh/nvm)
 node 16
 ```
 
-then, install dependencies
+then, install dependencies x
 
 ```
 cd femalegeek-website-nextjs
@@ -20,6 +21,7 @@ yarn
 ```
 
 run development server
+
 ```
 yarn dev
 ```
