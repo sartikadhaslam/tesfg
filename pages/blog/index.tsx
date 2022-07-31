@@ -1,11 +1,13 @@
 import React from "react";
 import CardBlog from "../../components/Cards/CardBlog";
+import NavbarFooterLayout from "../../layout/NavbarFooterLayout";
 
 export default function BlogPage() {
   return (
     <>
+    <NavbarFooterLayout>
     <main>
-      <section className="pb-20">
+      <section className="mt-20 pb-20">
           <CardBlog />
           <CardBlog />
           <CardBlog />
@@ -49,6 +51,7 @@ export default function BlogPage() {
 
       </section>
     </main>
+    </NavbarFooterLayout>
     </>
   );
 }
