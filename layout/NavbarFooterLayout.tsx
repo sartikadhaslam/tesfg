@@ -1,5 +1,3 @@
-import React from "react";
-import Image from "next/image";
 import { BeakerIcon } from "@heroicons/react/solid";
 
 interface NavbarFooterLayoutProps {
@@ -8,7 +6,8 @@ interface NavbarFooterLayoutProps {
 
 export default function NavbarFooterLayout(props: NavbarFooterLayoutProps) {
   return (
-    <div className="flex flex-col h-screen justify-between">
+    <>
+    <div className="flex flex-col h-screen mx-auto">
       {/* navbar */}
       <div className="h-10">
         <nav className="bg-[#EC407A] px-6 py-2.5">
@@ -190,5 +189,6 @@ export default function NavbarFooterLayout(props: NavbarFooterLayoutProps) {
       </div>
       <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
     </div>
+    </>
   );
 }
