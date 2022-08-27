@@ -116,12 +116,12 @@ export default function DetailBlog() {
                     <div className="w-full flex items-center">
                       <Image
                       className="rounded-full"
-                      src="/pct1.png"
+                      src="/fitriani.png"
                       alt="Landscape picture"
                       width={45}
                       height={45}
                       />
-                      <h1 className="px-2 text-xl font-semibold text-pink-800">Nadine Chandra</h1>
+                      <h1 className="px-2 text-xl font-semibold text-pink-800">Fitriani</h1>
                     </div>
                     <div className="w-full pt-4">
                       <p className="text-xl font-semibold">Bagus kak artikelnya. Thank you ya atas tulisannya.... :)</p>
