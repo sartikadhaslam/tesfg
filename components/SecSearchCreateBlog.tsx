@@ -1,7 +1,7 @@
 
 export default function SecSearchCreateBlog() {
   return (
-      <section className="mt-40">
+      // <section className="mt-40">
         <div className="container mx-auto">
           <div className="flex items-center space-x-6">
             <div className="w-10/12">
@@ -31,6 +31,6 @@ export default function SecSearchCreateBlog() {
             </div>
           </div>
         </div>
-      </section>
+      // </section>
   )
 }
