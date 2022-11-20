@@ -2,7 +2,7 @@ import React from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
 
-export default function article() {
+export default function Article() {
   const router = useRouter();
   const article = router.query.articleTitle;
 

@@ -1,4 +1,4 @@
-import { BeakerIcon } from "@heroicons/react/solid";
+import React from "react";
 
 interface NavbarFooterLayoutProps {
   children: React.ReactNode;
