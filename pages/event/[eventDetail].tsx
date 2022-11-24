@@ -2,7 +2,7 @@ import React from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
 
-export default function event() {
+export default function Event() {
   const router = useRouter();
   const event = router.query.eventDetail;
 

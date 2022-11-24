@@ -6,9 +6,9 @@ interface NavbarFooterLayoutProps {
 export default function NavbarFooterHomeLayout(props: NavbarFooterLayoutProps) {
   return (
     <>
-    <div className="grid-flow-col-dense divide-y">
+    <div className="grid-flow-col-dense">
       {/* header */}
-      <nav className="relative flex items-center justify-between px-2 mb-3 bg-[#EC407A]">
+      <nav className="relative flex items-center justify-between px-2 bg-[#EC407A]">
         <div className="container px-4 mx-auto flex items-center justify-between">
           {/* logo */}
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
@@ -18,7 +18,7 @@ export default function NavbarFooterHomeLayout(props: NavbarFooterLayoutProps) {
             >
               <img
                 src="/logo.png"
-                className="h-20 rounded-full"
+                className="h-20 rounded-full w-16 h-16"
                 alt="Flowbite Logo"
               />
             </a>

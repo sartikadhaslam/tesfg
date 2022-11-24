@@ -2,7 +2,7 @@ import React from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
 
-export default function koding() {
+export default function Koding() {
   const router = useRouter();
   const koding = router.query.kodingDetail;
 
