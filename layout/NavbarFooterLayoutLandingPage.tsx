@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { BeakerIcon } from "@heroicons/react/solid";
 
 interface NavbarFooterLayoutProps {
   children: React.ReactNode;

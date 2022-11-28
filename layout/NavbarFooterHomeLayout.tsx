@@ -63,10 +63,7 @@ export default function NavbarFooterHomeLayout(props: NavbarFooterLayoutProps) {
 
       {/* children */}
       {props.children}
-
-      {/* <script src="https://embedsocial.com/js/iframe.js"></script>
-      <iframe style="border: 0; width: 100%; height: 100%;" scrolling="no" src="https://embedsocial.com/api/pro_hashtag/32e6f83904d726ad3d5ae2208ac825ba3bb52fbf"></iframe>
-      <script>iFrameResize();</script> */}
+      
 
       {/* footer */}
       <div className="h-10 bg-white">
