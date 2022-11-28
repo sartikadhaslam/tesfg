@@ -1,11 +1,15 @@
 import React from "react";
-import NavbarFooterLayout from "../../layout/NavbarFooterLayout";
+import NavbarFooterHomeLayout from "../../layout/NavbarFooterHomeLayout";
+import SecItemBlog from "../../components/SecItemBlog";
+import SecSearchCreateBlog from "../../components/SecSearchCreateBlog";
+import SecSubscribe from "../../components/SecSubscribe";
 
 export default function HomePage() {
   return (
-    <NavbarFooterLayout>
-      <h1>Home</h1>
-      <h1>isi dari home</h1>
-    </NavbarFooterLayout>
+    <NavbarFooterHomeLayout>
+      <SecSearchCreateBlog />
+      <SecItemBlog />
+      <SecSubscribe />
+    </NavbarFooterHomeLayout>
   );
 }
