@@ -29,6 +29,11 @@ export default function SecSearchCreateBlog() {
                 Create New Blog
               </button>
             </div>
+            <input
+              type="text"
+              className="w-full py-4 px-16 text-lg font-semibold text-gray-900 bg-gray-200 rounded-full border border-gray-300"
+              placeholder="Cari Blog Kamu disini"
+            />
           </div>
         </div>
       // </section>
