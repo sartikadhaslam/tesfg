@@ -1,3 +1,4 @@
+import NavItem from './NavItem';
 
 interface NavbarFooterLayoutProps {
   children: React.ReactNode;
@@ -8,7 +9,7 @@ export default function NavbarFooterHomeLayout(props: NavbarFooterLayoutProps) {
     <>
     <div className="grid-flow-col-dense">
       {/* header */}
-      <nav className="relative flex items-center justify-between px-2 bg-[#EC407A]">
+      <nav className="relative flex items-center justify-between px-2 mb-3 bg-[#EC407A]">
         <div className="container px-4 mx-auto flex items-center justify-between">
           {/* logo */}
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
@@ -18,7 +19,7 @@ export default function NavbarFooterHomeLayout(props: NavbarFooterLayoutProps) {
             >
               <img
                 src="/logo.png"
-                className="h-20 rounded-full w-16 h-16"
+                className="h-20 rounded-full"
                 alt="Flowbite Logo"
               />
             </a>
@@ -32,46 +33,11 @@ export default function NavbarFooterHomeLayout(props: NavbarFooterLayoutProps) {
             id="femalegeek-logo"
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold text-white hover:opacity-75"
-                  href="#home"
-                >
-                  <i className="fab text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Home</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold text-white hover:opacity-75"
-                  href="#event"
-                >
-                  <i className="fab text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Event</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold text-white hover:opacity-75"
-                  href="#aboutUs"
-                >
-                  <i className="fab text-lg leading-lg text-white opacity-75"></i><span className="ml-2">About Us</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold text-white hover:opacity-75"
-                  href="#regional"
-                >
-                  <i className="fab text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Regional</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold text-white hover:opacity-75"
-                  href="#contact"
-                >
-                  <i className="fab text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Contact</span>
-                </a>
-              </li>
+              <NavItem href={'url'} label={'Home'} />
+              <NavItem href={'url'} label={'Event'} />
+              <NavItem href={'url'} label={'About Us'} />
+              <NavItem href={'url'} label={'Regional'} />
+              <NavItem href={'url'} label={'Contact'} />
             </ul>
           </div>
 
@@ -97,7 +63,7 @@ export default function NavbarFooterHomeLayout(props: NavbarFooterLayoutProps) {
 
       {/* children */}
       {props.children}
-
+      
 
       {/* footer */}
       <div className="h-10 bg-white">
@@ -125,16 +91,6 @@ export default function NavbarFooterHomeLayout(props: NavbarFooterLayoutProps) {
                 </svg>
               </button>
             </a>
-
-            {/* <button className="inline-flex items-center justify-center w-12 h-12 mr-2 text-white bg-[#EC407A] rounded-full hover:bg-gray-700">
-              <svg 
-                xmlns="http://www.w3.org/2000/svg" 
-                viewBox="0 0 320 512" 
-                className="w-5 h-5"
-              >
-                <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/>
-              </svg>
-            </button> */}
 
             {/* facebook logo */}
             <a href="https://www.facebook.com/femalegeek" target="_blank" rel="noopener noreferrer">
