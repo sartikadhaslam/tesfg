@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import NavItem from './NavItem';
 
 interface NavbarFooterLayoutProps {
@@ -9,18 +10,20 @@ export default function NavbarFooterHomeLayout(props: NavbarFooterLayoutProps) {
     <>
     <div className="grid-flow-col-dense">
       {/* header */}
-      <nav className="relative flex items-center justify-between px-2 mb-3 bg-[#EC407A]">
+      <nav className="relative flex items-center justify-between px-2 bg-[#EC407A]">
         <div className="container px-4 mx-auto flex items-center justify-between">
           {/* logo */}
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
               href="https://femalegeek.org/"
-              className="flex items-center md:py-5 py-2"
+              className="flex items-center md:py-4 py-2"
             >
-              <img
-                src="/logo.png"
-                className="h-20 rounded-full"
-                alt="Flowbite Logo"
+              <Image 
+              src="/logo.png"
+              className="h-20 rounded-full"
+              alt="logo fg"
+              width={80}
+              height={40}
               />
             </a>
           </div>
@@ -69,7 +72,7 @@ export default function NavbarFooterHomeLayout(props: NavbarFooterLayoutProps) {
       <div className="h-10 bg-white">
         <div className="grid grid-cols-1 md:grid-cols-2 p-5 gap-4">
           <div className="text-center md:text-left order-2 md:order-1">
-            <h1 className="text-lg">
+            <h1 className="text-md font-montserrat">
               <strong>
                 Copyright &copy; 2022 Femalegeek Dev Team. All rights reserved.
               </strong>
@@ -78,7 +81,7 @@ export default function NavbarFooterHomeLayout(props: NavbarFooterLayoutProps) {
           <div className="text-center md:text-right order-1 md:order-2">
             {/* mail logo */}
             <a href="mailto:femalegeekorg@gmail.com" target="_blank" rel="noopener noreferrer">
-              <button className="inline-flex items-center justify-center w-12 h-12 mr-2 text-white bg-[#EC407A] rounded-full hover:bg-pink-100">
+              <button className="inline-flex items-center justify-center w-12 h-12 mr-2 text-white bg-[#EC407A] rounded-full hover:bg-pink-300">
                 <svg 
                   xmlns="http://www.w3.org/2000/svg" 
                   fill="none" 
@@ -94,7 +97,7 @@ export default function NavbarFooterHomeLayout(props: NavbarFooterLayoutProps) {
 
             {/* facebook logo */}
             <a href="https://www.facebook.com/femalegeek" target="_blank" rel="noopener noreferrer">
-              <button className="inline-flex items-center justify-center w-12 h-12 mr-2 text-white bg-[#EC407A] rounded-full hover:bg-pink-100">
+              <button className="inline-flex items-center justify-center w-12 h-12 mr-2 text-white bg-[#EC407A] rounded-full hover:bg-pink-300">
                 <svg
                   className="w-7 h-7 fill-current"
                   xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +111,7 @@ export default function NavbarFooterHomeLayout(props: NavbarFooterLayoutProps) {
 
             {/* instagram logo */}
             <a href="https://www.instagram.com/femalegeek_org/" target="_blank" rel="noopener noreferrer">
-              <button className="inline-flex items-center justify-center w-12 h-12 mr-2 text-white bg-[#EC407A] rounded-full hover:bg-pink-100">
+              <button className="inline-flex items-center justify-center w-12 h-12 mr-2 text-white bg-[#EC407A] rounded-full hover:bg-pink-300">
                 <svg 
                   xmlns="http://www.w3.org/2000/svg" 
                   viewBox="0 0 448 512" 

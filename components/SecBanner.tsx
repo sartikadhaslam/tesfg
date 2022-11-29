@@ -4,7 +4,7 @@ export default function SecBanner() {
       <div className="container mx-auto items-center flex flex-wrap z-10">
         <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4 md:pt-40">
           <div className="sm:pt-0">
-            <h2 className="font-bold text-3xl md:text-4xl text-white">Community & Support System for 
+            <h2 className="text-3xl md:text-4xl text-white font-mulish">Community & Support System for 
 Women to Shining in Tech-Industry</h2>
           </div>
         </div>
