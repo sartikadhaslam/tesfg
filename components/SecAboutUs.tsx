@@ -3,7 +3,7 @@ import CardAbout from "./Cards/CardAbout";
 
 export default function SecAboutUs() {
   return (
-    <section className="mt-10 md:mt-20 relative">
+    <section className="mt-10 md:mt-20 relative" id="about-us">
       <div className="container mx-auto justify-center text-center flex flex-wrap">
         <div className="w-full px-12 md:px-4">
           <h2 className="font-bold text-4xl font-mulish">ABOUT US</h2>

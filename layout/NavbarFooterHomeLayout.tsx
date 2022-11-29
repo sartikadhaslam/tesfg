@@ -36,11 +36,11 @@ export default function NavbarFooterHomeLayout(props: NavbarFooterLayoutProps) {
             id="femalegeek-logo"
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-              <NavItem href={'url'} label={'Home'} />
-              <NavItem href={'url'} label={'Event'} />
-              <NavItem href={'url'} label={'About Us'} />
-              <NavItem href={'url'} label={'Regional'} />
-              <NavItem href={'url'} label={'Contact'} />
+              <NavItem href={'#'} label={'Home'} />
+              <NavItem href={'#'} label={'Event'} />
+              <NavItem href={'#about-us'} label={'About Us'} />
+              <NavItem href={'#regional'} label={'Regional'} />
+              <NavItem href={'#'} label={'Contact'} />
             </ul>
           </div>
 
