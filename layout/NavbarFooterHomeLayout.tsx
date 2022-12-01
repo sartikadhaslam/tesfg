@@ -40,6 +40,7 @@ export default function NavbarFooterHomeLayout(props: NavbarFooterLayoutProps) {
               <NavItem href={'#'} label={'Event'} />
               <NavItem href={'#about-us'} label={'About Us'} />
               <NavItem href={'#regional'} label={'Regional'} />
+              <NavItem href={'#contact'} label={'Contact'} />
             </ul>
           </div>
 
@@ -68,7 +69,7 @@ export default function NavbarFooterHomeLayout(props: NavbarFooterLayoutProps) {
       
 
       {/* footer */}
-      <div className="h-10 bg-white">
+      <div className="h-10 bg-white" id="contact">
         <div className="grid grid-cols-1 md:grid-cols-2 p-5 gap-4">
           <div className="text-center md:text-left order-2 md:order-1">
             <h1 className="text-md font-montserrat">
