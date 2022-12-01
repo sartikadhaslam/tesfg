@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function SecPartners() {
   return (
-    <section className="bg-[FDECF2] -mt-20 relative" id="partners">
+    <section className="bg-[FDECF2] -mt-10 relative" id="partners">
       <div className="container mx-auto justify-center text-center flex flex-wrap">
         <div className="w-full">
           <h2 className="font-bold pt-20 text-4xl font-mulish">PARTNERS</h2>
