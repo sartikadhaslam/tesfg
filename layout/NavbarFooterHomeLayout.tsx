@@ -40,7 +40,6 @@ export default function NavbarFooterHomeLayout(props: NavbarFooterLayoutProps) {
               <NavItem href={'#'} label={'Event'} />
               <NavItem href={'#about-us'} label={'About Us'} />
               <NavItem href={'#regional'} label={'Regional'} />
-              <NavItem href={'#'} label={'Contact'} />
             </ul>
           </div>
 
